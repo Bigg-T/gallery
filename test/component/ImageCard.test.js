@@ -16,7 +16,7 @@ test('Have the correct Image src', () => {
   const comp = shallow(<ImageCard src="test" href="test href"/>);
   expect(
       comp
-      .containsMatchingElement(<Image src="test" size="medium"/>)
+      .containsMatchingElement(<Image src="test"/>)
   ).toBe(true);
 });
 

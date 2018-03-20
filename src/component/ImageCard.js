@@ -9,7 +9,7 @@ class ImageCard extends Component {
   render() {
     return (
         <Card>
-          <Image src={this.props.src} size="medium"/>
+          <Image src={this.props.src}/>
           <Card.Content>
             <Card.Header>
               Photo by:
