@@ -43,6 +43,8 @@ display full­size images).
 **Note: [-] Partially completed - could be done better. 
 
 ## Future Improvement/ Issues
+* [ ] Notify user when API return no objects of the keywords, like "No content founded"
+  * Ex: Search 'adfasbs', return an empty object, but user might not know that.
 * [ ] Fix the Navbar aesthetic
 * [ ] Enlarge or something to view the picture at large scale
 * [ ] Refractor code
