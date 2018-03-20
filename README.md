@@ -1,4 +1,4 @@
-# [Gallery]()
+# [Gallery](http://gallery.app.com2.s3-website.us-east-2.amazonaws.com/)
 Gallery is an app that allows user to view photos from Unsplash API.
 
 React App + Jest + Enzyme.
@@ -43,6 +43,8 @@ display full­size images).
 **Note: [-] Partially completed - could be done better. 
 
 ## Future Improvement/ Issues
+* [ ] Fix the Navbar aesthetic
+* [ ] Enlarge or something to view the picture at large scale
 * [ ] Refractor code
 * [ ] More Tests
   * [ ] Mock

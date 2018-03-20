@@ -42,7 +42,7 @@ class MyNav extends Component {
       let route = (
           <Route path="/" render={() => (
               <Redirect strict to={{
-                pathname: '/search/',
+                pathname: '/search/'+this.state.value,
                 search: '?keyword=' + this.state.value,
                 state: {referrer: this.state.value}
               }}/>

@@ -13,7 +13,7 @@ class MyRoute extends Component {
         <main>
           <Switch>
             <Route exact path="/" component={Home}/>
-            <Route path="/search" component={SearchResult}/>
+            <Route path="/search/:id" component={SearchResult}/>
           </Switch>
         </main>
     )

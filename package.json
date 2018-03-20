@@ -60,7 +60,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "jest",
-    "test2": "node scripts/test.js --env=jsdom"
+    "test2": "node scripts/test.js --env=jsdom",
+    "deploy": "aws s3 cp --recursive ./build s3://gallery.app.com2"
   },
   "jest": {
     "collectCoverageFrom": [
