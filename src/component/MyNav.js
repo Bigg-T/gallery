@@ -59,7 +59,7 @@ class MyNav extends Component {
           {this.state.redirect}
           <Menu>
             <Menu.Item header>
-              <Header>Gallery</Header>
+              <Header href="/">Gallery</Header>
             </Menu.Item>
             <Menu.Menu position="right">
               <Search
